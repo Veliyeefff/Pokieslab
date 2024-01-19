@@ -1,0 +1,31 @@
+.pokie-australia {
+    background: linear-gradient(90deg, #f5bf5d, #e74c62);
+    opacity: 1;
+}
+
+
+.pokie-australia .section-background {
+    padding: 3% 12%;
+    background: url('/assets/images/hills.svg');
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pokie-australia .section-background .pokie-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pokie-australia .section-background .pokie-left .pokie-header {
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+}
+
+.pokie-australia .section-background .pokie-left .pokie-text {
+    line-height: 26px;
+    color: #fff;
+    font-size: 16px;
+}

@@ -1,0 +1,74 @@
+.best-pokie-content {
+    padding: 3% 14%;
+}
+
+.best-pokie-content .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.best-pokie-content .content-list {
+    margin-left: 30px;
+}
+
+.best-pokie-content .content-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.best-pokie-content .content-table .content-text {
+    width: 20%;
+}
+
+.best-pokie-content .content-table .long-text {
+    width: 90%;
+}
+
+.best-pokie-content .content .website {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.best-pokie-content .content .criteria-container {
+    display: flex;
+}
+
+.best-pokie-content .content .criteria-container .criteria {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 50%;
+}
+
+.best-pokie-content .content .criteria-container .criteria i {
+    font-size: 1.4rem;
+    color: #e74c62;
+}
+
+
+.best-pokie-content .content-header {
+    font-size: 30px;
+    line-height: 50px;
+    color: black;
+}
+
+.best-pokie-content .content-text {
+    color: #616161;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.best-pokie-content .content-text a {
+    text-decoration: underline;
+    color: #e74c62;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.best-pokie-content .content-text a:hover {
+    color: #f5bf5d;
+}

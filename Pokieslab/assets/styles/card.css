@@ -1,0 +1,60 @@
+.cards-section .cards-wrapper .cards-container .card {
+    border-radius: 15px;
+    background-color: white;
+}
+
+.cards-section .cards-wrapper .cards-container .card-image {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.cards-section .cards-wrapper .cards-container .card .card-texts {
+    background-color: white;
+    position: relative;
+}
+
+.cards-section .cards-wrapper .cards-container .card .card-texts .card-infos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 4%;
+    gap: 25px;
+}
+
+.cards-section .cards-wrapper .cards-container .card .card-texts .card-infos .card-name {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cards-section .cards-wrapper .cards-container .card .card-texts .card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cards-section .cards-wrapper .cards-container .card .card-texts .card-info .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-section .cards-wrapper .cards-container .card .card-texts .card-info .info .info-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #9e9e9e !important;
+}
+
+.cards-section .cards-wrapper .cards-container .card .card-texts .card-info .info .info-value {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    color: #9e9e9e;
+}

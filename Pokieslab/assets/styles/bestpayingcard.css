@@ -1,0 +1,94 @@
+.best-paying .best-card {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.best-paying .best-card .best-card-image {
+    background-color: black;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.best-paying .best-card .best-card-image img {
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.best-paying .best-card .best-card-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3% 2%;
+    width: 55%;
+}
+
+.best-paying .best-card .best-card-infos .best-card-info {
+    display: flex;
+    gap: 20px;
+}
+
+.best-paying .best-card .best-card-infos .best-card-info .best-card-info-pokie-bonus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.best-paying .best-card .best-card-infos .best-card-info-price {
+    font-size: 18px;
+    line-height: 33px;
+    color: #1a1a1a;
+    width: 100%;
+    font-weight: 700;
+}
+
+
+.best-paying .best-card .best-card-bonus {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, .5);
+    justify-content: space-between;
+    padding: 3% 2%;
+    align-items: center;
+    width: 25%;
+}
+
+.best-paying .best-card .best-card-bonus .play-now {
+    padding: 5%;
+    background-color: #DF9E0B;
+    border: none;
+    width: 240px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3;
+}
+
+.best-paying .best-card .best-card-bonus .bonus-info {
+    color: #e74762;
+    font-weight: 700;
+}
+
+.best-paying .show-more {
+    padding: 2%;
+    background-color: transparent;
+    border: 2px solid #e74762;
+    width: 240px;
+    border-radius: 20px;
+    color: #e74762;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.best-paying .show-more:hover {
+    color: white;
+    background-color: #e74762;
+}

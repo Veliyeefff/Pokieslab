@@ -1,0 +1,26 @@
+/* CSS Imports */
+@import url("./assets/styles/navbar.css");
+@import url("./assets/styles/footer.css");
+@import url("./assets/styles/review.css");
+@import url("./assets/styles/playfreebutton.css");
+@import url("./assets/styles/cardsection.css");
+@import url("./assets/styles/bestpayingsection.css");
+@import url('./assets/styles/savelist.css');
+@import url("./assets/styles/pokieaustralia.css");
+@import url('./assets/styles/bestpokie.css');
+@import url("./assets/styles/content.css");
+@import url("./assets/styles/reviewrate.css");
+
+/* Reset Codes */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a,
+a::before,
+a::after {
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.play-free {
+    padding: 5%;
+    background-color: #e74c62;
+    border: none;
+    width: 280px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3;
+    position: absolute;
+    top: -40%;
+    left: 5%;
+}
